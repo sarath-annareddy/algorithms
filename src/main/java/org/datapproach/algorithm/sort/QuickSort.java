@@ -40,6 +40,14 @@ import java.util.Random;
  * the cases of already sorted lists this should take the middle element as the
  * pivot thereby reducing the inefficency found in normal quicksort.
  * 
+ * * QuickSort is a divide-and-conquer algorithm.
+ * 
+ * The average time complexity of QuickSort is Nlog2(N) and worst time complexity of QuickSort is N^2.
+ * 
+ * This uses inplace sorting.
+ * 
+ * It is better to switch to insertion sort from merge sort,
+ *  if number of elements is less than 12
  * 
  * @author sarath
  *

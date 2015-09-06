@@ -13,6 +13,14 @@ import java.util.Random;
  * http://www.java-tips.org/java-se-tips-100019/24-java-lang/1894-heap-sort-
  * implementation-in-java.html
  * 
+ * 
+ * The average and worst time complexity of HeapSort is Nlog2(N).
+ * 
+ * This uses inplace sorting.
+ * 
+ * It is better to switch to insertion sort from merge sort,
+ *  if number of elements is less than 12
+ * 
  * @author sarath
  *
  */
